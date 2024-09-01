@@ -19,8 +19,19 @@ import {
 	strategicTech,
 	targetBusiness,
 	whiteDynamics,
+	martech,
+	msp,
+	b2b,
+	trust,
+	datadriven,
+	Agility,
+	dataCentricity,
+	Efficiency,
+	Integrity,
 } from './assets/icons';
+
 import bgVid from './assets/bgVid.mp4';
+
 import Footer from './components/Footer';
 import { useEffect } from 'react';
 function App() {
@@ -29,22 +40,21 @@ function App() {
 		{
 			name: (
 				<>
-					Government <br />
-					Contracting
+					MARTECH/<br />DIGITAL MARKETING
 				</>
 			),
 		},
 		{
 			name: (
 				<>
-					Growth <br /> Marketing  Firms
+					MSP & IT  <br /> SERVICES
 				</>
 			),
 		},
 		{
 			name: (
 				<>
-					Technology <br /> Enablers
+					B2B <br /> SAAS
 				</>
 			),
 		},
@@ -55,71 +65,67 @@ function App() {
 			title: 'Experienced <br />Leadership',
 			icon: experiencedLeadership,
 		},
-		{
-			desc: 'Access to a diverse network of advisors and mentors.',
-			title: 'Broad Industry <br />Network',
-			icon: BroadIndustry,
-		},
-		{
-			desc: 'Integration of cutting-edge technologies and exclusive IP from government agencies.',
-			title: 'Strategic Tech <br />Integration',
-			icon: strategicTech,
-		},
-		{
-			desc: 'Unique targeting to retiring baby boomers.',
-			title: 'Boomer <br />Engagement',
-			icon: experiencedLeadership,
-		},
+
 		{
 			desc: 'Commitment to transparency and ethical business practices.',
 			title: 'Trustworthy <br />Stewardship',
-			icon: BroadIndustry,
+			icon: trust,
 		},
 		{
 			desc: 'Systematic approach to acquisitions and growth.',
 			title: 'Model <br />Scaling',
 			icon: strategicTech,
 		},
+		{
+			desc: 'Integration of cutting-edge technologies and exclusive IP from government agencies.',
+			title: 'Data Driven <br /> Selection Process',
+			icon: datadriven,
+		},
 	];
 	const strategie = [
 		{
-			desc: 'Identify and acquire businesses, with a particular focus on those owned by retiring baby boomers.',
+			desc: 'Acquisition Using a proprietary Al-powered process we identify companies that meet specific financial criteria and are missing key operational and innovation elements that will enable exponential growth.',
 			id: 1,
 			title: 'Acquisition & <br />Integration:',
 		},
 		{
 			id: 3,
 			mobId: 2,
-			desc: 'Implement emerging technologies such as automation, AI, data analytics, and customer engagement tools.',
+			desc: 'Optimization We delve deep into the acquired businesses to identify and address opportunities in marketing, operations, and technology. We implement emerging technologies such as automation, Al, data analytics, and customer engagement to drive performance.',
 			title: 'Technology & IP <br />Enhancement:',
 		},
 		{
 			id: 2,
 			mobId: 3,
-			desc: 'We delve deep into the acquired businesses to identify and address opportunities in marketing, operations, and technology.',
+			desc: 'Aggregate We leverage synergies with portfolio companies to create a consolidated enterprise that enhances the value of the asset in preparation for exit. We focus on a holistic integration including tech, operations and culture.',
 			title: 'Strategic Tech <br />Integration',
 		},
 		{
 			id: 4,
-			desc: "Our strategy doesn't just stop at growth. We structure and nurture these businesses with a clear exit strategy in mind. Our goal is to exit in 3-5 years, targeting an exit valuation of 4x the initial value.",
+			desc: "Our strategy continues beyond growth. We structure and nurture these businesses with a clear exit strategy in mind.",
 			title: 'Plan & Position <br />for Exit:',
 		},
 	];
 	const oportunity = [
 		{
-			icon: whiteDynamics,
-			desc: 'With 10,000 baby boomer business owners retiring daily and over 90% never selling their businesses, a vast market is ripe for revitalization.',
-			title: 'Market <br />Dynamics',
+			icon: Integrity,
+			desc: 'We uphold moral and ethical principles, building trust and credibility, and creating value for all stakeholders in a responsible and sustainable manner. It is central to our culture and is the foundation of our organization.',
+			title: 'Integrity',
 		},
 		{
-			icon: acquision,
-			desc: 'We acquire and integrate key IP, from esteemed institutions like NASA and other agencies & institutions, adding unique value and competitive advantages to our acquisitions.',
-			title: 'Acquisition & <br />Integration:',
+			icon: Efficiency,
+			desc: 'We optimize resources, processes, and performance to achieve strategic objectives, maximize value creation, and maintain a competitive edge in the marketplace. ',
+			title: 'Efficiency',
 		},
 		{
-			icon: targetBusiness,
-			desc: 'We focus on cash flowing businesses in Government Contracting, Growth Marketing, and Technology Enabling firms.',
-			title: 'Target <br />Businesses',
+			icon: Agility,
+			desc: 'We embrace change, foster collaboration, and continuously adapt to thrive in dynamic business environments.',
+			title: 'Agility',
+		},
+		{
+			icon: dataCentricity,
+			desc: 'We treat data as a strategic asset and leverage it to drive insights, inform decisions, and optimize processes across all aspects of the business.',
+			title: 'Data-Centricity',
 		},
 	];
 	const Highlights = [
@@ -187,18 +193,11 @@ function App() {
 				<div className='relative z-30 pb-[10vh] lg:pb-[60vh] space-y-[100px] lg:space-y-[233px]  text-white pt-[100px] lg:pt-[200px] padding '>
 					<div className='space-y-[40px]'>
 						<div>{logo}</div>
-						<p className='text-[27px] lg:text-[42px] max-w-[692px] tracking-[-1.26px] lg:leading-[57px] font-[400]'>
-							Helping Small Businesses from Scale to Sale with Partners,
-							Positioning and IP
+						<p className='text-[27px] lg:text-[90px] max-w-[692px] tracking-[-1.26px] lg:leading-[90px] font-[100]'>
+							Potential Realized
 						</p>
 						<p className='font-[400] text-[14px] lg:text-[18px] max-w-[909px]  leading-[26px] lg:leading-[40px] tracking-[0.36px]'>
-							<span className='font-bold'>ScaleUp Ventures</span> is rolling up
-							companies in 3 key verticals, infusing them cutting edge IP , cost
-							and technology efficiencies to generate economies of scale and
-							enterprise value. Our vision is to transform traditional
-							operations, positioning them for exponential growth and creating
-							modern, competitive investment opportunities across diverse
-							sectors.
+						ScaleUp Ventures specializes in transforming businesses by integrating strategic technologies, innovative IP, and operational efficiencies. Our approach generates economies of scale, increased cash flow, and enterprise value.
 						</p>
 						<button
 							onClick={() =>
@@ -217,32 +216,35 @@ function App() {
 								Sectors We Target{' '}
 							</p>
 							<p className='text-[18px] font-[400] text-white tracking-[0.36px] leading-[40px] text-center mx-auto max-w-[794px]'>
-								<span className='font-bold'>ScaleUp Ventures</span> is rolling
-								up companies in 3 key verticals, infusing them cutting edge IP ,
-								cost and technology efficiencies to generate economies of scale
-								and enterprise value.{' '}
+							ScaleUp Ventures targets cash-flowing companies in 3 key verticals that are primed for growth as we enter a new era of digital transformation and disruption.
 							</p>
 						</div>
 						<div className='lg:flex space-y-[30px] lg:space-y-0 w-full justify-around'>
-							{services.map((el, index) => (
 								<div
-									key={index}
 									className='flex items-end space-x-10  lg:space-x-0 lg:space-y-[26px] lg:flex-col lg:items-center'>
-									<div className=''>{house}</div>
-									<p className=' lg:text-center  lg:mt-0 mt-10'>{el.name}</p>
+									<div className=''>{martech}</div>
+									<p className=' lg:text-center  lg:mt-0 mt-10'> MARCHTECH/<br/> DIGITAL MARKETING</p>
 								</div>
-							))}
+								<div
+									className='flex items-end space-x-10  lg:space-x-0 lg:space-y-[26px] lg:flex-col lg:items-center'>
+									<div className=''>{msp}</div>
+									<p className=' lg:text-center  lg:mt-0 mt-10'> MSP & IT /<br/> SERVICES</p>
+								</div>
+								<div
+									className='flex items-end space-x-10  lg:space-x-0 lg:space-y-[26px] lg:flex-col lg:items-center'>
+									<div className=''>{b2b}</div>
+									<p className=' lg:text-center  lg:mt-0 mt-10'> B2B /<br/> SAAS</p>
+								</div>
 						</div>
 					</div>
 				</div>
 			</section>
 			<section className='px-[30px] relative bg-[#2E3573]  lg:px-[100px]  py-[30px] lg:py-[60px] text-[#D5D5D5]'>
 				<div className='space-y-[30px] lg:text-start text-center lg:-translate-y-[40vh]  lg:py-[90px] py-[60px] px-[20px] lg:px-[90px]  bg-[#251D42]  lg:space-y-[55px]'>
-					<p className='text-[27px] lg:text-[35px] font-[700] lg:leading-[46px] tracking-[-1.05px]'>
-						Why Partner with ScaleUp <br />
-						Ventures?
+					<p className='text-[27px] lg:text-[35px] font-[700] lg:leading-[46px] tracking-[-1.05px] text-center'>
+						Why Partner with ScaleUp Ventures?
 					</p>
-					<div className='grid  lg:grid-cols-3 gap-x-[90px] gap-y-[30px] lg:gap-y-[70px]'>
+					<div className='grid  lg:grid-cols-2 gap-x-[200px] gap-y-[30px] lg:gap-y-[70px]'>
 						{whyUs.map((el, index) => (
 							<div
 								key={index}
@@ -266,8 +268,8 @@ function App() {
 						Strategy & Approach:{' '}
 					</p>
 					<div className='w-[164px] border-2 border-[#1D2AF5]'></div>
-					<div className='grid  lg:grid-cols-2  gap-x-[90px] gap-y-[30px] lg:gap-y-[70px]'>
-						{strategie.map((el, index) => (
+					<div className='flex flex-col lg:flex-row gap-x-[90px] gap-y-[30px] lg:gap-y-[70px]'>
+					{strategie.map((el, index) => (
 							<div
 								key={index}
 								className={`flex space-x-[15px] lg:space-x-[25px] ${
@@ -294,59 +296,42 @@ function App() {
 				</div>
 				<div className='space-y-[30px] py-[50px] lg:py-[77px] text-white text-center  lg:-translate-y-[40vh] lg:space-y-[55px]'>
 					<div className='w-fit mx-auto'>{bigLogo}</div>
-					<p className='text-[27px] lg:text-[35px] font-[700] lg:leading-[46px] tracking-[-1.05px]'>
-						Unique Value Proposition:
-					</p>
-					<p className='font-[500] text-[15] leading-[26px] '>
-						Unlocking the untapped potential of small businesses across sectors
-						by infusing them with cutting-edge technologies, innovation, and
-						exclusive intellectual property. We revitalize traditional
-						operations with automation, data-driven insights, customer
-						engagement, optimization, sustainability practices, and strategic IP
-						integration, transforming them into modern, competitive, and
-						attractive acquisition targets.
-					</p>
 				</div>
 				<div className='space-y-[30px]  text-white text-center  lg:-translate-y-[40vh] lg:space-y-[55px]'>
 					<p className='text-[27px] lg:text-[35px] font-[700] lg:leading-[46px] tracking-[-1.05px]'>
-						The Opportunity{' '}
+					Our Values{' '}
 					</p>
-					<div className='grid  lg:grid-cols-3 gap-x-[90px] gap-y-[30px] lg:gap-y-[70px]'>
+
+					<div className='grid  lg:grid-cols-1 gap-x-[90px] gap-y-[30px] lg:gap-y-[70px] justify-items-center'>
+
 						{oportunity.map((el, index) => (
-							<div
-								className={`space-y-[25px] max-w-[539px] `}
-								key={index}>
-								<div className='w-fit mx-auto'>{el.icon}</div>
-								<p
-									dangerouslySetInnerHTML={{ __html: el.title }}
-									className='font-bold text-[17.39px] leading-[26px] '></p>
-								<p className='font-[500] text-[15] leading-[26px] '>
-									{el.desc}
-								</p>
-							</div>
+		<div
+		className={`space-y-[25px] max-w-[800px]`}
+		
+		key={index}
+	  >
+		
+		<div className='flex items-center'>
+			
+		  <div className='w-fit mr-5'>{el.icon}</div>
+		  <div>
+			<p
+			  dangerouslySetInnerHTML={{ __html: el.title }}
+			  className='font-[500] text-[15px] leading-[26px] text-start'
+			></p>
+			<p className='font-[500] text-[15px] leading-[26px] text-start'>
+			  {el.desc}
+			</p>
+		  </div>
+		</div>
+		<hr className="border-t-1 border-gray-200" />
+	  </div>
 						))}
 					</div>
+
+					
 				</div>
-				<div className='space-y-[30px] text-center text-white pt-[50px] lg:pt-[90px]  lg:-translate-y-[40vh] lg:space-y-[55px]'>
-					<p className='text-[27px] lg:text-[35px] font-[700] lg:leading-[46px] tracking-[-1.05px]'>
-						Financial Highlights{' '}
-					</p>
-					<div className='grid  lg:grid-cols-2 gap-x-[90px] gap-y-[30px] lg:gap-y-[70px]'>
-						{Highlights.map((el, index) => (
-							<div
-								className={`space-y-[25px] s`}
-								key={index}>
-								<div className='mx-auto w-fit'>{el.icon}</div>
-								<p className='font-bold text-[17.39px] leading-[26px] '>
-									{el.title}
-								</p>
-								<p className='font-[500] text-[15] leading-[26px] '>
-									{el.desc}
-								</p>
-							</div>
-						))}
-					</div>
-				</div>
+			
 			</section>
 
 			<Footer></Footer>
