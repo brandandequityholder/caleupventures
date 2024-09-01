@@ -268,7 +268,7 @@ function App() {
 						Strategy & Approach:{' '}
 					</p>
 					<div className='w-[164px] border-2 border-[#1D2AF5]'></div>
-					<div className='flex flex-col lg:flex-row gap-x-[90px] gap-y-[30px] lg:gap-y-[70px]'>
+					<div className='flex flex-col lg:flex-row gap-x-[10px] gap-y-[30px] lg:gap-y-[70px]'>
 					{strategie.map((el, index) => (
 							<div
 								key={index}
